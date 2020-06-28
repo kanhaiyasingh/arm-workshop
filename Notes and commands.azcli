@@ -5,3 +5,5 @@ az login
 cd lab1
 az group create --name lab1 --location "West Europe"
 az group deployment create --name job1 --resource-group lab1 --template-file azuredeploy.json
+
+# new note
